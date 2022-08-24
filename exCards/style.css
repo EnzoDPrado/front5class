@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align:center;
+    padding: 20px;
+}
+
+
+
+main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.card{
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    padding: 15px;
+    border-radius: 30px;
+    border-style: solid;
+}
+
+.card h2{
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+
+.card span{
+    font-size: 24px;
+    text-align: center;
+}
